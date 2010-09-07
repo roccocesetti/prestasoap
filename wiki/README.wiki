@@ -1,0 +1,14 @@
+#labels Installation,Documentation,Guide
+Simple Prestashop SOAP v.0.1a
+
+
+INSTALLATION
+============
+
+First, unzip the zip file to your hard disk and then upload the entire contents to your web server in core directory of your Prestashop.
+That's all.
+
+DOCUMENTATION
+=============
+
+Coming soon...
