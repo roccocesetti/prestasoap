@@ -1,20 +1,17 @@
-Version v.0.21a September 14, 2010
+<p>Version v.0.21a September 14, 2010</p>
+<p>- Chg: Added checking params for function;</p>
 
-- Chg: Added checking params for function;
+<p></p>
 
+<p>Version v.0.2a September 12, 2010</p>
+<p>- New: Added function to support classes and function in modules;</p>
 
-Version v.0.2a September 12, 2010
+<p></p>
 
-- New: Added function to support classes and function in modules;
+<p>Version v.0.11a September 9, 2010</p>
+<p>- New: Added authorization;</p>
 
+<p></p>
 
-Version v.0.11a September 9, 2010
-
-- New: Added authorization;
-
-
-Version v.0.1a September 7, 2010
-
---------------
-
-Initial release
+<p>Version v.0.1a September 7, 2010</p>
+<p>- Initial release</p>
