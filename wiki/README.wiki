@@ -3,12 +3,29 @@ Simple Prestashop SOAP v.0.1a
 
 
 *INSTALLATION*
-============
 
 First, unzip the zip file to your hard disk and then upload the entire contents to your web server in core directory of your Prestashop.
 That's all.
 
 *DOCUMENTATION*
-=============
 
 Coming soon...
+
+*EXAMPLE*
+
+Call method Category::getCategories($id_lang, $active = true, $order = true)
+
+{{{
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+    <SOAP-ENV:Body>
+        <ns8869:core xmlns:ns8869="http://tempuri.org">
+            <login xsi:type="xsd:string">login@email.com</login>
+            <password xsi:type="xsd:string">password</password>
+            <class xsi:type="xsd:string">Category</class>
+            <method xsi:type="xsd:string">getCategories</method>
+            <params xsi:type="xsd:string">a:1:{i:0;i:3;}</params>
+        </ns8869:core>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+}}}
