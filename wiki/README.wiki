@@ -1,5 +1,5 @@
 #labels Installation,Documentation,Guide
-Simple Prestashop SOAP v.0.1a
+Simple Prestashop SOAP v.0.2.1a
 
 
 *INSTALLATION*
