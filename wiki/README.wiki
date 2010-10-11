@@ -29,3 +29,16 @@ Call method Category::getCategories($id_lang, $active = true, $order = true)
     </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 }}}
+
+NuSOAP example:
+{{{
+$result = $client->call(
+    'core',                     // method name
+    array(  'login' => 'login@email.com',
+            'password' => 'assword',
+            'class' => 'Category', 
+            'method' => 'getCategories', 
+            'params' =>serialize( array(3) ) 
+    )   
+);
+}}}
